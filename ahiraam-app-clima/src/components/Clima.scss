@@ -1,0 +1,28 @@
+$colorTitulo: rgb(17, 224, 231);
+
+.infoClima{ //BEM: Block
+    background: rgb(34, 5, 161);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__imgClima{ //BEM: Element
+        align-self: center;
+    }
+
+    &__listaInfo{
+        list-style: none;
+
+        li{
+            color: $colorTitulo;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    }
+
+}
+
+.text-boton{
+    color:$colorTitulo;
+}
