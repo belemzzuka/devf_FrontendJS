@@ -1,0 +1,11 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-container__izquierdo,
+.home-container__derecho {
+    width: 50%;
+}
