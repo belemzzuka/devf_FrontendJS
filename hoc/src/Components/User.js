@@ -1,15 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
-export default function User() {
-    const [ user, setUser ] = useState({});
-    const url = `https://jsonplaceholder.typicode.com/users/3`;
+export default function User( {user} ) {
 
-    useEffect( ()=>{
-        axios.get(url)
-        .then( response => setUser(response.data) )
-    },[])
-
+    //Unicamente se muestra el render de la informacion
     return (
         <div>
             <h2>
